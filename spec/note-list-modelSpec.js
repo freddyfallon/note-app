@@ -7,5 +7,17 @@
     }
   }
 
-testNoteListToInclueEmptyArray();
+  testNoteListToInclueEmptyArray();
+  })(this);
+
+  (function(exports) {
+    function testNoteLogIncludeNote(){
+      var list = new NoteList();
+
+      if (list.getnoteLog !== "I love quotes!") {
+        throw new Error("Error, noteLog does not include all saved notes!");
+      }
+    }
+
+testNoteLogIncludeNote();
 })(this);
