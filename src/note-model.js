@@ -3,8 +3,8 @@
     this.text = "I love quotes!";
 }
 
-Note.prototype.getText = function () {
-  this.text;
+Note.prototype.getText = function() {
+  var text = this.text;
 };
 
 exports.Note = Note;
