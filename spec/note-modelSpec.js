@@ -1,12 +1,10 @@
 (function(exports) {
-  function testNoteQuoteToExist() {
+  function testNoteQuoteToIncludeNoteLog() {
     var note = new Note();
-    note1 = "Hello";
-    inputNote(note1);
-    saveNote();
-    if (this.noteLog.includes()) {
-       return("Working!");
-        }
-     }
-  testNoteQuoteToExist();
+
+    if (this.noteLog !== []) {
+       console.log("Error, note log does not exist");
+   }
+ }
+  testNoteQuoteToIncludeNoteLog();
   })(this);
