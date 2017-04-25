@@ -6,7 +6,7 @@
   NoteListView.prototype.returnHTMLString = function() {
     allElements = "";
     for (var i = 0; i < this.noteList.noteLog.length; i++) {
-      allElements += "<ul><li><div>" + this.noteList.noteLog[i] + "</div></li></ul>";
+      allElements += "<ul><li><div>" + this.noteList.noteLog[i].slice(0, 20) + "</div></li></ul>";
     }
     return allElements;
   };

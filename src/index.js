@@ -1,4 +1,4 @@
 list = new NoteList();
+list.createNote("Hello");
 controller = new NoteController(list);
-controller.addNote("Favourite drink: seltzer");
 controller.sendToIndex();
