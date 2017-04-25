@@ -1,11 +1,11 @@
-#Welcome to Quote Noter!
+# Welcome to Quote Noter!
 
 If you have quote,
 that needs noting,
 put it on a note,
 and start coding...
 
-###User Stories:
+### User Stories:
 
 As a programmer
 So I can create a note
