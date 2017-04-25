@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "If you have quote, that needs noting, put it on a note, and start coding...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connie-reinholdsson/notes-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connie-reinholdsson/notes-app/issues"
+  },
+  "homepage": "https://github.com/connie-reinholdsson/notes-app#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
