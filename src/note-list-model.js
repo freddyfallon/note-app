@@ -13,8 +13,16 @@
   };
 
   NoteList.prototype.createNote = function (string) {
+    if (this.noteLog.length === 0) {
+      var id = 0;
+    } else {
+      var id = this.noteLog[this.noteLog.length-1].id + 1;
+    }
     this.noteLog.push(note = new Note(string));
+    note.setId(id);
   };
+
+
 
 exports.NoteList = NoteList;
 })(this);
