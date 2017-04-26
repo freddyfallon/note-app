@@ -1,6 +1,7 @@
 (function(exports) {
   function NoteController(noteList) {
     this.noteListView = new NoteListView(noteList);
+    this.el = document.getElementById('note-list');
   }
 
 NoteController.prototype.sendToIndex = function() {
