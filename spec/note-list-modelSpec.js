@@ -1,4 +1,3 @@
-
   function testNoteList(){
     var list = new NoteList();
     list.createNote("Favourite food: PIZZA");

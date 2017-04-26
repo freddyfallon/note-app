@@ -5,15 +5,15 @@
   }
 
   NoteList.prototype.getnoteLog = function () {
-    allElements = "";
+    var allElements = "";
     for (var i = 0; i < this.noteLog.length; i++) {
-        allElements += this.noteLog[i] + '\b';
+        allElements += this.noteLog[i].text + '\b';
     }
     return allElements;
   };
 
-  NoteList.prototype.createNote = function (note) {
-    this.noteLog.push(note);
+  NoteList.prototype.createNote = function (string) {
+    this.noteLog.push(note = new Note(string));
   };
 
 exports.NoteList = NoteList;
